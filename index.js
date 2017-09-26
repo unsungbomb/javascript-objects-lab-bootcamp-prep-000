@@ -14,3 +14,8 @@ function Objects deleteFromObjectByKey(object, key){
   delete anotherObj[key];
   return anotherObj;
 }
+
+function destructivelyDeleteFromObjectByKey(object, key) {
+delete object[key];
+return object;
+}
